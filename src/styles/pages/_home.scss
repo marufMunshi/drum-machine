@@ -1,0 +1,38 @@
+#drum-machine {
+    min-height: 80vh;
+    background: linear-gradient(to right bottom, #915e74, #335);
+}
+
+#display {
+    width: 80vw;
+    padding: 20vh 10vw;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.drum-pad {
+    border: 5px solid black;
+    border-radius: 6px;
+    margin: 16px;
+    font-size: 24px;
+    padding: 24px 16px;
+    transition: all .07s ease;
+    height: 50px;
+    width: 19%;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 8px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
